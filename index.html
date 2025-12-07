@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Quarterly Earnings Report</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Reveal.js Core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+
+  <!-- Code Syntax Highlighting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css">
+</head>
+
+<body>
+
+<div class="reveal">
+  <div class="slides">
+
+    <!-- ✅ TITLE SLIDE -->
+    <section>
+      <h2>Quarterly Earnings Report</h2>
+      <p>Technical Consultant – Financial Institution</p>
+      <p><b>Email:</b> 24f2003532@ds.study.iitm.ac.in</p>
+
+      <aside class="notes">
+        Introduce the presentation and mention that this is an interactive RevealJS deck.
+      </aside>
+    </section>
+
+    <!-- ✅ MARKDOWN SLIDE -->
+    <section data-markdown>
+      <textarea data-template>
+## Executive Summary (Markdown Slide)
+
+- Revenue Growth: **8.5%**
+- Profit Margin: **19.2%**
+- Digital Transactions Increased
+- Operational Costs Reduced
+
+> This entire slide is written in Markdown.
+
+Notes:
+- Highlight that this slide is written in Markdown format.
+      </textarea>
+    </section>
+
+    <!-- ✅ FRAGMENTS / ANIMATION -->
+    <section>
+      <h2>Revenue Sources</h2>
+      <ul>
+        <li class="fragment">Retail Banking – 45%</li>
+        <li class="fragment">Corporate Banking – 30%</li>
+        <li class="fragment">Investment Banking – 15%</li>
+        <li class="fragment">Others – 10%</li>
+      </ul>
+
+      <aside class="notes">
+        These bullets appear one by one using fragments.
+      </aside>
+    </section>
+
+    <!-- ✅ CODE WITH SYNTAX HIGHLIGHTING -->
+    <section>
+      <h2>Risk Calculation (Code Sample)</h2>
+
+      <pre><code class="language-javascript">
+function calculateRisk(score) {
+  if (score > 80) {
+    return "High Risk";
+  } else if (score > 50) {
+    return "Medium Risk";
+  } else {
+    return "Low Risk";
+  }
+}
+      </code></pre>
+
+      <aside class="notes">
+        This shows syntax highlighted JavaScript code.
+      </aside>
+    </section>
+
+    <!-- ✅ MATHEMATICAL EQUATIONS -->
+    <section>
+      <h2>Financial Formula</h2>
+
+      <p class="fragment">
+        Net Profit Margin:
+        \[
+        \frac{Net\ Income}{Revenue} \times 100
+        \]
+      </p>
+
+      <p class="fragment">
+        Present Value:
+        \[
+        PV = \frac{CF}{(1+r)^t}
+        \]
+      </p>
+
+      <aside class="notes">
+        Explain profit margin and discounted cash flow formulas.
+      </aside>
+    </section>
+
+    <!-- ✅ FINAL SLIDE -->
+    <section>
+      <h2>Thank You</h2>
+      <p class="fragment">Questions?</p>
+      <p class="fragment"><b>Contact:</b> 24f2003532@ds.study.iitm.ac.in</p>
+
+      <aside class="notes">
+        Invite questions and close the presentation.
+      </aside>
+    </section>
+
+  </div>
+</div>
+
+<!-- ✅ REVEAL JS -->
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+
+<!-- ✅ PLUGINS -->
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/math/math.js"></script>
+
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: true,
+    plugins: [
+      RevealMarkdown,
+      RevealHighlight,
+      RevealNotes,
+      RevealMath.KaTeX
+    ]
+  });
+</script>
+
+</body>
+</html>
