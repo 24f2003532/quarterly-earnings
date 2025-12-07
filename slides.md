@@ -23,28 +23,32 @@ strong {
 }
 </style>
 
+<!-- ✅ MARP DIRECTIVE USED HERE -->
+<!-- _class: lead -->
 # Product Documentation  
 ## Software System Overview  
 
-**Author:** 24f2003532@ds.study.iitm.ac.in  
+**Author Email:** 24f2003532@ds.study.iitm.ac.in  
 
 ---
 
+<!-- ✅ MARP DIRECTIVE USED HERE -->
+<!-- _footer: Custom Footer Enabled -->
 # Why Marp for Documentation?
 
-- Version controlled using Git
+- Version controlled using Git  
 - Easy conversion to:
   - PDF
   - PPTX
-  - HTML
-- Markdown-based
-- Developer friendly
+  - HTML  
+- Markdown-based  
+- Developer friendly  
 
 ---
 
-<!-- ✅ BACKGROUND IMAGE SLIDE -->
-![bg](https://images.unsplash.com/photo-1534751516642-a1af1ef26a16)
-
+<!-- ✅ BACKGROUND IMAGE + DIRECTIVE -->
+<!-- _backgroundImage: "url(https://images.unsplash.com/photo-1534751516642-a1af1ef26a16)" -->
+<!-- _backgroundSize: cover -->
 # System Architecture
 
 - Microservices based design  
@@ -67,10 +71,12 @@ T(n) = O(n \log n)
 S(n) = O(n)
 \]
 
-This shows efficient performance under scaling workloads.
+Used in performance analysis of sorting and indexing algorithms.
 
 ---
 
+<!-- ✅ PAGINATION DIRECTIVE -->
+<!-- _paginate: true -->
 # Custom Styling Example
 
 This slide demonstrates:
@@ -78,7 +84,7 @@ This slide demonstrates:
 - Custom background color  
 - Custom fonts  
 - Highlighted **important text**
-- Footer with email visible on every page  
+- Footer with email visible  
 
 ---
 
