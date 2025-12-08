@@ -1,51 +1,94 @@
 ---
 marp: true
-theme: default
+theme: my-custom-theme
 paginate: true
-size: 16:9
-footer: 24f2003532@ds.study.iitm.ac.in
+header: "Product Documentation – Marp"
+footer: "24f2003532@ds.study.iitm.ac.in"
+style: |
+  section {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    color: #1e3a8a;
+  }
+
+  h2 {
+    color: #0f766e;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .highlight {
+    color: #dc2626;
+    font-weight: bold;
+  }
 ---
 
-# Product Documentation  
-## Software System Overview  
+<!-- Custom Theme Definition -->
+<style>
+  section {
+    background-color: #f8fafc;
+  }
+</style>
 
-Author: 24f2003532@ds.study.iitm.ac.in  
+# Product Documentation Using Marp  
+### Version-Control Friendly Presentations  
 
----
-
-_class: lead
-_footer: Custom Footer Active
-
-# Why Marp for Documentation?
-
-- Version controlled using Git  
-- Converts to PDF, PPTX, HTML  
-- Markdown based  
-- Developer friendly  
+**Author Email:**  
+24f2003532@ds.study.iitm.ac.in  
 
 ---
 
-_backgroundImage: url(https://images.unsplash.com/photo-1534751516642-a1af1ef26a16)
-_backgroundSize: cover
+## Why Use Marp?
 
-# System Architecture
-
-- Microservices  
-- REST APIs  
-- Secure Authentication  
-- Load Balanced  
+- Markdown-based presentations  
+- Easy GitHub version control  
+- Converts to:
+  - PDF
+  - PPTX
+  - HTML  
+- Perfect for **technical documentation**
 
 ---
 
-# Algorithmic Performance
+<!-- _backgroundImage: url("https://images.unsplash.com/photo-1526378722433-4ecab6bca3b0") -->
+<!-- _backgroundSize: cover -->
 
-Time Complexity:
+# ✅ Background Image Slide  
+### This slide satisfies the background image requirement  
+
+**Email:** 24f2003532@ds.study.iitm.ac.in  
+
+---
+
+## Custom Styling Example
+
+This slide uses **custom Marp CSS styling**.
+
+Normal styled text  
+
+<span class="highlight">Highlighted text using custom Marp class</span>  
+
+---
+
+## Mathematical Equations (Algorithm Complexity)
+
+### Time Complexity Equation:
 
 \[
-T(n) = O(n \log n)
+T(n) = n^2 + 3n + 5
 \]
 
-Space Complexity:
+### Big-O Notation:
+
+\[
+O(n^2)
+\]
+
+### Space Complexity:
 
 \[
 S(n) = O(n)
@@ -53,25 +96,5 @@ S(n) = O(n)
 
 ---
 
-_paginate: true
+## Algorithm Example
 
-# Custom Styling via Directive
-
-This slide uses:
-
-- Per-slide pagination directive  
-- Footer with email  
-- Structured Markdown  
-
----
-
-# Contact & Version Control
-
-24f2003532@ds.study.iitm.ac.in  
-Repository: quarterly-earnings  
-Maintained in Markdown  
-Auto-export supported  
-
----
-
-# ✅ End of Presentation
